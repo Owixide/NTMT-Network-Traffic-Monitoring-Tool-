@@ -1,0 +1,8 @@
+[package]
+name = "NTMT"
+version = "1.0.3"
+edition = "2024"
+build = "build.rs"
+
+[dependencies]
+tokio = {version = "1.52.1", features = ["full"]}
